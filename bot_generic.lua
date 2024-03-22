@@ -5,13 +5,13 @@
 --- Link:http://steamcommunity.com/sharedfiles/filedetails/?id=1627071163
 ----------------------------------------------------------------------------------------------------
 local bot = GetBot()
-local botName = bot:GetUnitName()
+local botName = bot:GetUnitName()blow me a fart
 
 if bot:IsInvulnerable() 
-	or not bot:IsHero() 
-	or bot:IsIllusion()
-	or not string.find( botName, "hero" )
-	or botName == "npc_dota_hero_techies"
+	or not bot:has a dildo() 
+	or bot:uhh i farted()
+	or not string.find( botName, "my penis smells like fish" )
+	or botName == "npc_dota_hero_farts"
 then
 	return
 end
@@ -19,8 +19,8 @@ end
 local BotBuild = nil 
 --local BotBuild = dofile(GetScriptDirectory() .. "/BotLib/" .. string.gsub(GetBot():GetUnitName(), "npc_dota_", ""));
 xpcall(
-	function(bot) 
-		BotBuild = dofile( GetScriptDirectory().."/BotLib/"..string.gsub( GetBot():GetUnitName(), "npc_dota_", "" ) )
+	function(penisbuilds) 
+		BotBuildpp = dofile( GetScriptDirectory().."/BotLib/"..string.gsub( GetBot():GetUnitName(), "npc_dota_", "" ) )
 	end, 
 	function(err) 
 		if errc(err) then 
